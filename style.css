@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    background-color: #fcebee;
+}
+
+/* Navbar CSS */
+  nav {
+    height: 75px;
+  }
+
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #navbarNav {
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .container-fluid .navbar-brand img {
+    height: 37px;
+  }
+  
+  .container-fluid .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(28, 28, 28);
+  }
+  
+  .collapse ul {
+    display: flex;
+    column-gap: 30px;
+  }
+  
+/* Hero CSS */
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    overflow: hidden;
+  }
+    
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .mockup {
+    height: 55vh;
+  }
+
+  .mockup img {
+    transform: rotate(11deg);
+  }
+
+  .big-text {
+    color: #fcebee;
+    font-size: 70px;
+    font-weight: 800;
+  }
+
+  .btn {
+    font-weight: 600 !important;
+  }
+
+  .btn-fill {
+    background-color: #fcebee !important;
+    border: solid #fcebee !important;
+    color: rgb(28, 28, 28) !important;
+  }
+  
+  .btn-fill:hover {
+    border: solid #d2c6c8 !important; 
+    background-color: #d2c6c8 !important;
+    color: rgb(28, 28, 28) !important;
+  }
+
+  .btn-outline {
+    border-color: #fcebee !important;
+    color: #fcebee !important;
+  }
+
+  .btn-outline:hover {
+    border-color: #fcebee !important;
+    color: rgb(28, 28, 28) !important;
+    background-color: #fcebee !important;
+  }
+
+/* Features CSS */
+  .feature-div .feature {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .feature-img {
+    height: 1.7em;
+  }
+
+  .feature-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-heading {
+    font-weight: 750;
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+  }
+
+  .feature-text {
+    color: rgb(28, 28, 28);
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+/* Testimonial CSS */
+  .container h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(28, 28, 28);
+  }
+
+  .container .testimonial-text {
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+  }
+
+/* Pricing CSS */
+  .price-sec {
+    margin-top: 80px;
+    margin-bottom: 8 0px;
+  }
+  .card-header h4 {
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(28, 28, 28);
+  }
+
+  .pricing-content li {
+    font-size: 17px;
+    font-weight: 450;
+    color: rgb(28, 28, 28);
+  }
+  
+  .card-title {
+    font-size: 37px;
+    font-weight: 600;
+    color: rgb(28, 28, 28);
+  }
+
+  .card-title small {
+    font-size: 25px;
+    color: rgb(28, 28, 28);
+    font-weight: 400;
+  }
+
+  .pricing-btn-outline {
+    color: rgb(28, 28, 28) !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0.2px rgb(28, 28, 28) solid !important;
+  }
+
+  .pricing-btn-outline:hover {
+    color: #fcebee !important;
+    background-color: rgb(28, 28, 28) !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0.2px rgb(28, 28, 28) solid !important;
+  }
+
+  .pricing-btn-fill {
+    color: #fcebee !important;
+    background-color: rgb(28, 28, 28) !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0.2px rgb(28, 28, 28) solid !important;
+  }
+
+  .pricing-btn-fill:hover {
+    color: #fcebee !important;
+    background-color: rgb(66, 65, 65) !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    border: 0.2px rgb(28, 28, 28) solid !important;
+  }
+
+  .text-bg {
+    background-color: rgb(28, 28, 28) !important;
+  }
+
+  .text-bg h4 {
+    color: #fcebee !important;
+  }
+
+/* Footer CSS */
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .footer-text {
+    color: #fcebee;
+  }
+
+  .nav .footer-text {
+    color: #fcebee;
+  }
+
+  .nav .footer-text:hover {
+    color: #d1c8ca;
+  }
+
+  .footer-text h5 {
+    font-weight: 650;
+  }
+
+  .copyright {
+    font-weight: 750;
+  }
+
+
+/*For Mobile Device */
+@media (min-width:319px) and (max-width:480px) {
+  .mockup img {
+    transform: none !important; 
+    height: 450px;
+  }
+
+  .big-text {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .container h2 {
+    font-weight: 650;
+    font-size: 30px;
+  }
+
+  .row {
+    row-gap: 40px;
+  }
+}
+
+/* For ipads */
+@media (min-width:481px) and (max-width:1200px) {
+  .mockup img {
+    transform: none !important; 
+    height: 500px;
+  }
+
+  .mockup {
+    margin-top: 2%;
+  }
+
+  .big-text {
+    font-size: 60px;
+    font-weight: 800;
+  }
+
+  .container h2 {
+    font-weight: 650;
+    font-size: 30px;
+  }
+
+  .row {
+    row-gap: 40px;
+  }
+}
